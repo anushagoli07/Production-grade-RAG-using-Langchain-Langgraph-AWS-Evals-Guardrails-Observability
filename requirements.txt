@@ -1,0 +1,22 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+numpy
+google-generativeai
+langchain-google-genai
+sentence-transformers
+#vector store
+qdrant-client
+#data ingestion and document parsing
+unstructured
+python-pptx
+python-docx
+pypdf
+beautifulsoup4
+pdfplumber
+# observability and distributed tracing
+logfire[fastapi,requests]
+loguru
+langsmith
+flashrank
